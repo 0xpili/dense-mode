@@ -144,7 +144,7 @@ Do NOT apply dense mode to:
 
 ## Why Dense Mode Over Cave Talk
 
-Tested empirically across 6 Claude Code tasks ([research](https://github.com/0xpili/where-the-tokens-go/blob/master/research/13-dense-vs-cave-talk.md)):
+Tested empirically across 6 Claude Code tasks ([research](../../research/dense-vs-cave-talk.md)):
 
 | Metric | Cave Talk | Dense Mode |
 |--------|-----------|------------|

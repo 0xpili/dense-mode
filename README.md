@@ -33,7 +33,7 @@ npx skills add 0xpili/dense-mode
 
 ## How it compares
 
-Tested across 6 Claude Code tasks ([full research](https://github.com/0xpili/where-the-tokens-go/blob/master/research/13-dense-vs-cave-talk.md)):
+Tested across 6 Claude Code tasks ([full research](research/dense-vs-cave-talk.md)):
 
 | Metric | Normal | Cave Talk | Dense Mode |
 |--------|--------|-----------|------------|
@@ -62,9 +62,15 @@ Structure-level compression is more efficient because it removes redundant gramm
 - Security warnings (full reasoning)
 - File paths (complete)
 
-## Part of
+## Research
 
-[Where the Tokens Go](https://github.com/0xpili/where-the-tokens-go) — research on Claude Code token optimization from the inside.
+The `research/` folder contains the empirical comparison behind these claims:
+
+- [dense-vs-cave-talk.md](research/dense-vs-cave-talk.md) — Full write-up with 6 findings
+- [data/results.md](research/data/results.md) — Raw comparison tables and composite scorecard
+- [data/test-cases.md](research/data/test-cases.md) — All 6 prompts with side-by-side responses in 4 styles
+
+Part of [Where the Tokens Go](https://github.com/0xpili/where-the-tokens-go) — research on Claude Code token optimization from the inside.
 
 ## License
 
